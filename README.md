@@ -40,3 +40,8 @@ For more advanced/skeptical users, you can download the source, open the .sln pr
 
 #
 I hope this works well for you, message me on discord at elzi_ if you have any issues or contributions.
+
+# Links:
+
+Process Hacker: https://sourceforge.net/projects/processhacker/
+MiniHook: https://github.com/TsudaKageyu/minhook
