@@ -10,6 +10,7 @@
 static double friction = 0.9; 
 static double sensitivity = 0.05;  
 static double maxVelocity = 15.0;  
+const DWORD frameMs = 16; // aproximately 60fps
 
 // ####################################################################
 
@@ -61,7 +62,6 @@ UINT WINAPI HookedGetRawInputData(
 
 DWORD WINAPI HeartbeatThread(LPVOID)
 {
-    const DWORD frameMs = 16; // ~60hz update
     while (true) {
         Sleep(frameMs);
         if (!smoothingEnabled)
